@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דף הבית</title>
+    <link rel="stylesheet" href="בסיס.CSS">
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="logo..png" type="image/x-icon">
+
+</head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 0px;  
+            direction: rtl;
+        }
+        #mainCaption {
+        /*הכיתוב שהכי למעלה*/
+        margin: auto;
+        color: rgb(33, 11, 92);
+    }
+
+    h1 {
+        /*הכיתוב שהכי למעלה*/
+        /* text-align: center; */
+        font-size: 32px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+
+        /* h1 {
+            text-align: center;
+            color: #333;
+        } */
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #0d054b;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+           margin-right: 20%;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #c0e211;
+        }
+        .button {
+  background-color: #190f67; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #93a421; /* Darker green */
+}
+header .logo {
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 0%;
+
+    }
+
+    .logo img {
+        /*הלוגו*/
+
+        margin-inline: 43%;
+
+    }
+
+    header {
+        position: sticky;
+        top: 0%;
+        width: 100%;
+        z-index: 100;
+    }
+
+    ul {
+        display: block;
+        /* list-style-type: disc; */
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+
+
+    ul {
+        display: flex;
+        padding-inline-start: 0px;
+        height: 40px;
+        width: 100%;
+
+    }
+
+    a {
+        font-size: x-large;
+        color: rgb(242, 242, 247);
+        text-decoration: none;
+
+
+    }
+
+    a:hover {
+        color: rgb(238, 238, 125);
+        font-style: italic;
+        font-weight: 500;
+        width: none;
+        font-size: large;
+        text-align: center;
+
+    }
+
+    nav li {
+
+        direction: rtl;
+        display: flex;
+        width: 12rem;
+        background-color: rgb(24, 13, 79);
+        text-align: center;
+        /*width: 10px;*/
+        height: 40px;
+        /*padding-top:50px;*/
+        /* box-sizing: border-box; */
+        font-size: large;
+        cursor: pointer;
+        /*vertical-align: top;*/
+        font-weight: 800;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        /*text-decoration: none;*/
+        padding: 0.5vw;
+        flex-wrap: wrap;
+    }
+
+
+   
+
+        .toda {
+            color: aliceblue;
+
+            text-align: center;
+            vertical-align: top;
+            font-weight: 800;
+            font-size: x-small;
+            /* margin: 45% 0% 0% 0%; */
+        }
+@media (max-width:900px) {
+    h1{
+        font-size: large;
+    }
+    a{
+        font-size: medium;
+    }
+
+    
+}
+@media (max-width:600px) {
+    h1{
+        font-size: medium;
+    }
+    a{
+        font-size: small;
+    }
+
+    
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="logo"> <a href="דף הבית.html"><img src="logo..png" height="150" width="150"></a></div>
+
+        <nav>
+            <ul>
+                <li> <a href="דף הבית.html">דף הבית</a></li>
+                <li><a href="אודותינו.HTML">אודותינו</a></li>
+                <li><a href="מפות.html">מפות </a></li>
+                <li><a href="מפיות.html">מפיות </a></li>
+                <li><a href="מגבות.html">מגבות </a></li>
+                <li><a href="כיסוי חלה.html">כיסוי חלה </a></li>
+                <li><a href="חבקים.html"> חבקים</a> </li>
+                <li> <a href="פלייסמנטים.html"> פליסמנטים</a> </li>
+                <li> <a href="תשלום.html" class="active">תשלום</a> </li>
+            </ul>
+        </nav>
+
+        </div>
+    </header>
+    <div class="container"></div>
+    <div id="mainCaption">
+        <h1>מלא את הפרטים הנדרשים, ואשר את העסקה.</h1>
+        <!-- <div id="instruction">שים לב למלא את כל שדות החובה.</div> -->
+
+    </div>
+
+    <h1>שם לב שפרטיך נכונים לפני השליחה. </h1>
+    <form>
+        <label for="id_card">תעודת זהות:</label>
+        <input type="text" id="id_card"placeholder="שדה חובה" name="id_card" required>
+
+        <label for="first_name">שם פרטי:</label>
+        <input type="text" id="first_name"placeholder="שדה חובה" name="first_name" required>
+
+        <label for="last_name">שם משפחה:</label>
+        <input type="text" id="last_name" placeholder="שדה חובה" name="last_name" >
+
+        <label for="last_name">קוד מוצר :</label>
+        <input type="text" id="id" placeholder="שדה חובה" name="id" >
+
+        
+        <label for="bornDate">תאריך הזמנה</label>
+        <input type="date" name="bornDate" id="bornDate" max="2025-01-01" >
+
+        <input type="submit" value="איפוס">
+  <input type="reset" value="שליחה">
+</form>
+  <footer>
+    <div class="alinu">
+        <p class="adgasa"> kingdom:</p>
+        <p> הסיפור שלי <br></p>
+        <p> החנויות </p>
+        <p> שוברי מתנה </p>
+    </div>
+
+    <div class="snifim">
+        <p class="adgasa">בואו לבקר אותנו:</p>
+        <p class="s">סניף בני ברק </p>
+        <p> רחוב הרב שמואל רוזובסקי 9</p>
+        <p>טלפון החנות:</p>
+        <p>03-5786945 </p>
+        <p>א'-ה' ימים 10:00-21:00 </p>
+        <p>ו' 10:00-13:00 </p>
+        <p class="s">סניף ירושלים </p>
+        <p> רחוב שמגר 19 </p>
+        <p>טלפון החנות:</p>
+        <p>02-5548745 </p>
+        <p>א'-ה' ימים 10:00-21:00 </p>
+        <p>ו' 10:00-13:00 </p>
+    </div>
+
+    <div class="serut">
+        <p class="adgasa">שרות לקוחות: </p>
+        <p> </p>
+        <p>מייל - kingdom@gmail.com </p>
+        <p> לקוחות סיטונאים? דברו איתנו- </p>
+        <p> כתובת האתר- www.kingdom.co.il </p>
+        <div class="toda">
+            <p> מצאתם מה שחיפשתם? שתפו את החברים בלינק הבא-</p>
+            <p> www.kingdom.co.il </p>
+            <p> תודה ולהתראות!! </p>
+        </div>
+
+    </div>
+</footer>
+        </body>
